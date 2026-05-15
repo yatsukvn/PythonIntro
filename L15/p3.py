@@ -15,4 +15,4 @@ for i in range(0, 6):
     elif numbers[i] > maximum:
         maximum = numbers[i]
 
-print(f'Minimum = {minimum:.2F}, maximum = {maximum:.2F}')
+print(f'Minimum = {round(minimum,2)}, maximum = {round(maximum,2)}')
